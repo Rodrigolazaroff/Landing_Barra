@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Barra Pesquera BNA — Goya, Corrientes. Comunidad de pesca con devolución en el Paraná.">
+    <title>Barra Pesquera BNA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:ital,wght@0,300;0,400;0,600;1,300&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== HERO ===== -->
+<section id="hero">
+    <canvas id="hero-canvas" aria-hidden="true"></canvas>
+    <div class="hero-content">
+        <div class="logo-wrap fade-in">
+            <img src="Fotos/Logo_Barra_ok.png" alt="Barra Pesquera BNA" class="logo-img">
+        </div>
+        <p class="hero-tagline fade-in-delay">Río, amistad y camaradería.</p>
+        <div class="scroll-indicator fade-in-delay-2" role="button" tabindex="0" aria-label="Scrollear hacia abajo">
+            <div class="scroll-arrow"></div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== QUIÉNES SOMOS ===== -->
+<section id="quienes-somos" class="section">
+    <div class="container">
+        <div class="two-col">
+            <div class="col-text">
+                <h2 class="section-title reveal">Quiénes somos</h2>
+                <p class="body-text reveal">
+                    La Barra Pesquera BNA nació entre compañeros del <strong>Banco de la Nación Argentina</strong>, sucursal Goya, unidos por una pasión común: la pesca. Lo que empezó como salidas informales al río fue creciendo solo, con naturalidad, hasta convertirse en una barra con identidad propia.
+                </p>
+                <p class="body-text reveal">
+                    Desde alrededor del <strong>año 2016</strong>, somos aproximadamente <strong>30 integrantes</strong> — la mayoría de Goya, Corrientes, y el resto de ciudades y zonas cercanas. No somos un club formal. Somos una familia que se junta en el río, en la isla, alrededor del fuego y donde haga falta dar una mano.
+                </p>
+                <p class="body-text reveal">
+                    Dentro de la barra hay familias enteras: padres que fomentaron el amor por la pesca en sus hijos, y hoy pescan juntos bajo la misma bandera.
+                </p>
+                <div class="leadership reveal">
+                    <span class="leadership-label">Conducción</span>
+                    <div class="leadership-grid">
+                        <span>Raúl Barreto · Salvador Raimundo</span>
+                        <span>Nicolás Corgnali · Miguel Cadenas</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-visual reveal">
+                <img src="Fotos/Barra_Grupal.jpg" alt="Foto grupal de la Barra Pesquera BNA" class="group-photo">
+            </div>
+        </div>
+        <blockquote class="pull-quote reveal">
+            <span>"No somos un club. Somos una familia."</span>
+        </blockquote>
+    </div>
+</section>
+
+<!-- ===== PESCA CON DEVOLUCIÓN ===== -->
+<section id="pesca-devolucion" class="section section-gradient">
+    <div class="container">
+        <h2 class="section-title centered reveal">Pesca con devolución</h2>
+        <div class="big-phrase reveal">"Cada pez vuelve al río."</div>
+        <p class="body-text centered reveal">
+            Una de las premisas más importantes de la barra: <strong>la pesca es con devolución</strong>. Cada pez capturado vuelve al río. No pescamos para llevarnos — pescamos para el encuentro, la emoción de la picada y el respeto por el Paraná.
+        </p>
+        <div class="species-grid">
+            <div class="species-card reveal">
+                <svg class="species-icon" viewBox="0 0 90 55" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M12,27 Q28,10 60,16 Q70,27 60,38 Q28,44 12,27" fill="none" stroke="#5B9BD5" stroke-width="2.5"/>
+                    <path d="M60,16 L76,8 L74,27 L76,46 L60,38" fill="none" stroke="#5B9BD5" stroke-width="2.5" stroke-linejoin="round"/>
+                    <circle cx="18" cy="24" r="3" fill="#5B9BD5"/>
+                    <circle cx="32" cy="22" r="2" fill="#3A6EC8" opacity="0.8"/>
+                    <circle cx="42" cy="20" r="1.5" fill="#3A6EC8" opacity="0.8"/>
+                    <circle cx="50" cy="22" r="2" fill="#3A6EC8" opacity="0.8"/>
+                    <line x1="12" y1="30" x2="5" y2="38" stroke="#5B9BD5" stroke-width="1.5"/>
+                    <line x1="15" y1="31" x2="9" y2="40" stroke="#5B9BD5" stroke-width="1.5"/>
+                    <line x1="18" y1="32" x2="13" y2="41" stroke="#5B9BD5" stroke-width="1.5"/>
+                </svg>
+                <h3>Surubí</h3>
+                <span class="badge">La estrella</span>
+            </div>
+            <div class="species-card reveal">
+                <svg class="species-icon" viewBox="0 0 90 55" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M12,27 Q30,8 60,20 Q66,27 60,34 Q30,46 12,27" fill="none" stroke="#E8A020" stroke-width="2.5"/>
+                    <path d="M60,20 L78,11 L76,27 L78,43 L60,34" fill="none" stroke="#E8A020" stroke-width="2.5" stroke-linejoin="round"/>
+                    <circle cx="19" cy="24" r="3" fill="#E8A020"/>
+                    <path d="M30,13 Q40,5 50,13" fill="none" stroke="#E8A020" stroke-width="2"/>
+                    <line x1="12" y1="27" x2="5" y2="19" stroke="#E8A020" stroke-width="1.5"/>
+                    <line x1="12" y1="27" x2="4" y2="30" stroke="#E8A020" stroke-width="1.5"/>
+                </svg>
+                <h3>Dorado</h3>
+                <span class="badge">El ideal</span>
+            </div>
+            <div class="species-card reveal">
+                <svg class="species-icon" viewBox="0 0 90 55" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <!-- Pacú: cuerpo muy alto y robusto -->
+                    <path d="M16,27 Q20,10 52,10 Q72,10 72,27 Q72,44 52,44 Q20,44 16,27" fill="none" stroke="#5B9BD5" stroke-width="2.5"/>
+                    <!-- cola bifurcada grande -->
+                    <path d="M72,27 L83,14 L78,27 L83,40 L72,27" fill="none" stroke="#5B9BD5" stroke-width="2.5" stroke-linejoin="round"/>
+                    <!-- ojo grande -->
+                    <circle cx="23" cy="23" r="3" fill="#5B9BD5"/>
+                    <!-- aleta dorsal prominente -->
+                    <path d="M33,10 Q43,2 56,10" fill="none" stroke="#5B9BD5" stroke-width="2.5"/>
+                    <!-- aleta ventral -->
+                    <path d="M38,44 Q46,51 54,44" fill="none" stroke="#5B9BD5" stroke-width="1.5"/>
+                    <!-- línea lateral -->
+                    <path d="M28,27 Q50,24 68,27" fill="none" stroke="#5B9BD5" stroke-width="1" opacity="0.5" stroke-dasharray="3,3"/>
+                </svg>
+                <h3>Pacú</h3>
+            </div>
+            <div class="species-card reveal">
+                <svg class="species-icon" viewBox="0 0 90 55" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <!-- Boga: cuerpo alto y redondeado -->
+                    <path d="M18,27 Q22,12 50,12 Q68,12 68,27 Q68,42 50,42 Q22,42 18,27" fill="none" stroke="#5B9BD5" stroke-width="2.5"/>
+                    <!-- cola bifurcada -->
+                    <path d="M68,27 L78,16 L74,27 L78,38 L68,27" fill="none" stroke="#5B9BD5" stroke-width="2.5" stroke-linejoin="round"/>
+                    <!-- ojo -->
+                    <circle cx="24" cy="24" r="2.5" fill="#5B9BD5"/>
+                    <!-- aleta dorsal -->
+                    <path d="M35,12 Q42,4 52,12" fill="none" stroke="#5B9BD5" stroke-width="2"/>
+                    <!-- aleta ventral -->
+                    <path d="M38,42 Q44,49 50,42" fill="none" stroke="#5B9BD5" stroke-width="1.5"/>
+                    <!-- línea lateral -->
+                    <path d="M30,27 Q50,25 65,27" fill="none" stroke="#5B9BD5" stroke-width="1" opacity="0.5" stroke-dasharray="3,3"/>
+                </svg>
+                <h3>Boga</h3>
+            </div>
+            <div class="species-card reveal">
+                <svg class="species-icon" viewBox="0 0 90 55" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M14,27 Q28,13 57,19 Q64,27 57,35 Q28,41 14,27" fill="none" stroke="#5B9BD5" stroke-width="2.5"/>
+                    <path d="M57,19 L73,14 L71,27 L73,40 L57,35" fill="none" stroke="#5B9BD5" stroke-width="2.5" stroke-linejoin="round"/>
+                    <circle cx="20" cy="24" r="2.5" fill="#5B9BD5"/>
+                    <line x1="28" y1="19" x2="28" y2="35" stroke="#5B9BD5" stroke-width="1.5" opacity="0.55"/>
+                    <line x1="38" y1="17" x2="38" y2="37" stroke="#5B9BD5" stroke-width="1.5" opacity="0.55"/>
+                    <line x1="48" y1="18" x2="48" y2="36" stroke="#5B9BD5" stroke-width="1.5" opacity="0.55"/>
+                    <line x1="14" y1="30" x2="7" y2="37" stroke="#5B9BD5" stroke-width="1.5"/>
+                </svg>
+                <h3>Armado</h3>
+            </div>
+            <div class="species-card reveal">
+                <svg class="species-icon" viewBox="0 0 90 55" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M14,27 Q30,14 58,21 Q65,27 58,33 Q30,40 14,27" fill="none" stroke="#5B9BD5" stroke-width="2.5"/>
+                    <path d="M58,21 L74,15 L72,27 L74,39 L58,33" fill="none" stroke="#5B9BD5" stroke-width="2.5" stroke-linejoin="round"/>
+                    <circle cx="20" cy="24" r="2.5" fill="#5B9BD5"/>
+                    <path d="M28,15 L25,8 L31,13" fill="none" stroke="#5B9BD5" stroke-width="2"/>
+                    <line x1="14" y1="30" x2="8" y2="36" stroke="#5B9BD5" stroke-width="1.5"/>
+                    <line x1="16" y1="32" x2="11" y2="39" stroke="#5B9BD5" stroke-width="1.5"/>
+                </svg>
+                <h3>Patí</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== ACTIVIDADES ===== -->
+<section id="actividades" class="section">
+    <div class="container">
+        <h2 class="section-title centered reveal">Actividades</h2>
+        <div class="activities-grid">
+            <!-- CAMPAMENTO -->
+            <div class="flip-card reveal">
+                <div class="flip-inner">
+                    <div class="activity-card flip-front">
+                        <div class="activity-icon">
+                            <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#5B9BD5" stroke-width="1.7" aria-hidden="true">
+                                <path d="M3 17l4-8 4 8"/><path d="M13 17l4-8 4 8"/><line x1="1" y1="17" x2="23" y2="17"/>
+                            </svg>
+                        </div>
+                        <h3>Campamento en la isla</h3>
+                        <p>Salimos en lancha y nos instalamos en la isla. Carpa armada, fogón encendido, el sonido del Paraná de fondo. Los campamentos duran de 1 a 3 días — el destino siempre depende de adónde haya pique.</p>
+                        <span class="flip-hint">Click para ver foto</span>
+                    </div>
+                    <div class="flip-back">
+                        <img src="Fotos/Campamentos.jpg" alt="Campamento en la isla">
+                        <span class="flip-hint flip-hint--back">Click para volver</span>
+                    </div>
+                </div>
+            </div>
+            <!-- JUEVES -->
+            <div class="flip-card reveal">
+                <div class="flip-inner">
+                    <div class="activity-card flip-front">
+                        <div class="activity-icon">
+                            <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#5B9BD5" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <circle cx="12" cy="13" r="8"/>
+                                <line x1="8"  y1="2" x2="8"  y2="6"/>
+                                <line x1="10" y1="2" x2="10" y2="6"/>
+                                <line x1="6"  y1="2" x2="6"  y2="6"/>
+                                <path d="M8 6 Q8 8 8 13"/>
+                                <path d="M16 2 Q18 4 16 8"/>
+                                <line x1="16" y1="8" x2="16" y2="13"/>
+                            </svg>
+                        </div>
+                        <h3>Los jueves de la barra</h3>
+                        <p>Una vez por semana, la barra se junta en la casa de algún integrante. Sin sede fija — la rotación es intencional. Al frente de los fuegos está el chef oficial <strong>Nicolás Samaniego</strong>. Casi siempre es asado.</p>
+                        <span class="flip-hint">Click para ver foto</span>
+                    </div>
+                    <div class="flip-back">
+                        <img src="Fotos/Asados_De_La_Barra.jpg" alt="Asado de la barra">
+                        <span class="flip-hint flip-hint--back">Click para volver</span>
+                    </div>
+                </div>
+            </div>
+            <!-- TORNEOS -->
+            <div class="flip-card reveal">
+                <div class="flip-inner">
+                    <div class="activity-card flip-front">
+                        <div class="activity-icon">
+                            <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#5B9BD5" stroke-width="1.7" aria-hidden="true">
+                                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/>
+                                <path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/>
+                                <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/>
+                                <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/>
+                            </svg>
+                        </div>
+                        <h3>Torneos de pesca</h3>
+                        <p>La barra compite en torneos bajo su nombre. Se arman grupos de 3 integrantes por lancha y se sale a pescar con todo. La preparación, la organización y el espíritu competitivo son parte del ADN de la barra.</p>
+                        <span class="flip-hint">Click para ver foto</span>
+                    </div>
+                    <div class="flip-back">
+                        <img src="Fotos/Lancha_En_El_Rio.jpg" alt="Lancha en el río">
+                        <span class="flip-hint flip-hint--back">Click para volver</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== FIESTA NACIONAL DEL SURUBÍ ===== -->
+<section id="fiesta-surubi" class="section section-fiesta">
+    <div class="container fiesta-inner">
+        <div class="fiesta-badge reveal">⭐ El evento del año</div>
+        <h2 class="fiesta-title reveal">Más de mil lanchas.<br>Un solo río.</h2>
+        <p class="fiesta-subtitle reveal">El Mundial de Pesca · Goya, Corrientes</p>
+        <p class="body-text centered reveal">
+            La Fiesta Nacional del Surubí en Goya es el corazón palpitante de cada goyano y, especialmente, de la Barra Pesquera BNA. Una celebración anual que es mucho más que un evento — es la encarnación del espíritu goyano, un homenaje a nuestras raíces y tradiciones.
+        </p>
+        <div class="fiesta-stat reveal">Participación ininterrumpida desde <strong>2014</strong></div>
+        <div class="timeline">
+            <div class="tl-item reveal">
+                <div class="tl-dot"></div>
+                <div class="tl-day">Miércoles</div>
+                <div class="tl-body">
+                    <h4>Inauguración</h4>
+                    <p>Todos juntos para escuchar el primer himno en casa. En cuanto suena <em>"Amarradero del viento..."</em>, la adrenalina hace el resto.</p>
+                </div>
+            </div>
+            <div class="tl-item reveal">
+                <div class="tl-dot"></div>
+                <div class="tl-day">Jueves</div>
+                <div class="tl-body">
+                    <h4>Noche de Peñas</h4>
+                    <p>Todas las barras se reúnen a compartir una cena. Cada barra cocina para las demás — camaradería pura.</p>
+                </div>
+            </div>
+            <div class="tl-item reveal">
+                <div class="tl-dot"></div>
+                <div class="tl-day">Viernes</div>
+                <div class="tl-body">
+                    <h4>Elección de Reinas</h4>
+                    <p>Cada barra presenta su candidata. Nuestra barra lleva su representante con orgullo goyano.</p>
+                </div>
+            </div>
+            <div class="tl-item reveal">
+                <div class="tl-dot"></div>
+                <div class="tl-day">Sábado</div>
+                <div class="tl-body">
+                    <h4>La Largada — El Torneo</h4>
+                    <p>A las 14hs arranca la competencia. <strong>Más de mil lanchas</strong> navegando el riacho a toda velocidad — un espectáculo único en el mundo. El torneo continúa hasta las 7am del domingo.</p>
+                </div>
+            </div>
+            <div class="tl-item reveal">
+                <div class="tl-dot"></div>
+                <div class="tl-day">Domingo</div>
+                <div class="tl-body">
+                    <h4>Cena de cierre y premios</h4>
+                    <p>El broche de oro de la fiesta. La barra se reúne a celebrar, sin importar el resultado. El podio es un sueño — y ese día va a llegar.</p>
+                </div>
+            </div>
+        </div>
+
+        <hr class="fiesta-divider reveal">
+
+        <!-- Momento destacado -->
+        <div class="fiesta-highlight reveal">
+            <img src="Fotos/Premio_Concurso_2025.jpg" alt="Premio Concurso 2025" class="fiesta-hl-img">
+            <div class="fiesta-hl-text">
+                <h3 class="fiesta-hl-title">🏆 Nuestra huella en el escenario mayor</h3>
+                <p>En 2025, uno de los momentos que más nos hizo vibrar: la familia Cian subió al escenario mayor de la Fiesta Nacional del Surubí y se quedó con uno de los premios. Éxtasis total, alegría compartida, orgullo de barra.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ===== OBRAS CARITATIVAS ===== -->
+<section id="obras-caritativas" class="section section-light">
+    <div class="container">
+        <h2 class="section-title centered dark reveal">Obras caritativas</h2>
+        <p class="charity-phrase reveal">"La solidaridad también es ser barra."</p>
+        <p class="body-text centered dark reveal">La Barra Pesquera BNA no solo vive del río. También da. Los actos caritativos son una costumbre de la barra, no una excepción.</p>
+        <div class="charity-grid">
+            <div class="charity-card reveal">
+                <div class="charity-icon">❤️</div>
+                <h3>Donación a ONG SURSUM — Goya</h3>
+                <p>Donamos electrodomésticos y juguetes a la ONG SURSUM de Goya, que trabaja con personas en situación de vulnerabilidad.</p>
+            </div>
+            <div class="charity-card reveal">
+                <div class="charity-icon">🎄</div>
+                <h3>Colecta de juguetes — Navidad</h3>
+                <p>Cada fin de año, la barra se organiza para juntar juguetes y acercarlos a quienes más los necesitan.</p>
+            </div>
+            <div class="charity-card charity-card--future reveal">
+                <div class="charity-icon">✨</div>
+                <h3>Más acciones</h3>
+                <p>La solidaridad no se detiene. Nuevas acciones caritativas se irán sumando aquí.</p>
+            </div>
+        </div>
+        <div class="charity-cta reveal">
+            <a href="https://wa.me/5493794906217?text=Hola%20BNA!%20Quiero%20colaborar%20con%20sus%20obras."
+               class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                Quiero colaborar
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ===== GALERÍA ===== -->
+<section id="galeria" class="section">
+    <div class="container">
+        <h2 class="section-title centered reveal">Galería</h2>
+        <p class="body-text centered reveal" style="color:var(--text-secondary)">Torneos, salidas, encuentros y momentos que definen quiénes somos.</p>
+        <div class="gallery-grid reveal">
+            <div class="gallery-item" data-desc="Foto grupal de la barra">
+                <img src="Fotos/Barra_Grupal.jpg" alt="Foto grupal de la barra" class="gallery-img">
+            </div>
+            <div class="gallery-item gallery-item--feature" data-desc="La largada — Fiesta Nacional del Surubí">
+                <img src="Fotos/Largada.jpg" alt="La largada — Fiesta Nacional del Surubí" class="gallery-img">
+            </div>
+            <div class="gallery-item" data-desc="Surubí — pesca con devolución">
+                <img src="Fotos/Integrante_Surubi.jpg" alt="Captura de surubí" class="gallery-img">
+            </div>
+            <div class="gallery-item" data-desc="Campamento en la isla — riacho Goya">
+                <img src="Fotos/Campamento.jpg" alt="Campamento en la isla" class="gallery-img">
+            </div>
+            <div class="gallery-item" data-desc="Dorado — el ideal">
+                <img src="Fotos/Integrante_Dorado.jpg" alt="Captura de dorado" class="gallery-img">
+            </div>
+            <div class="gallery-item" data-desc="Donación a ONG SURSUM — Goya">
+                <img src="Fotos/Sursum.jpg" alt="Donación a ONG SURSUM" class="gallery-img">
+            </div>
+            <div class="gallery-item" data-desc="Premio concurso 2025">
+                <img src="Fotos/Premio_Concurso_2025.jpg" alt="Premio concurso 2025" class="gallery-img">
+            </div>
+            <div class="gallery-item" data-desc="Noche de peñas">
+                <img src="Fotos/Noche_Peñas.jpg" alt="Noche de peñas" class="gallery-img">
+            </div>
+            <div class="gallery-item" data-desc="Lancha en el campamento">
+                <img src="Fotos/Lancha_Campamento.jpg" alt="Lancha en el campamento" class="gallery-img">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== TESTIMONIOS ===== -->
+<section id="testimonios" class="section section-testimonios">
+    <div class="container">
+        <h2 class="section-title centered reveal">Lo que dice la gente</h2>
+    </div>
+    <div class="marquee-track">
+        <div class="marquee-inner">
+            <div class="testi-card">
+                <p class="testi-text">Gracias eternas. Me hicieron sentir parte de esta gran barra.</p>
+            </div>
+            <div class="testi-card">
+                <p class="testi-text">Muchas gracias por la invitación y la amabilidad. Espero poder verlos pronto y el año que viene estar nuevamente con ustedes, representando esta hermosa barra. Un abrazo grande y cálido — Familia Cian.</p>
+            </div>
+            <div class="testi-card">
+                <p class="testi-text">Más de una vez nos preguntamos si queríamos ser una gran barra pesquera o una barra de amigos. Elegimos ser una barra modesta de amigos que valga la pena.</p>
+            </div>
+            <div class="testi-card">
+                <p class="testi-text">Demostraron ser muy buena gente, y eso nos alegra enormemente. Poder compartir con ustedes y que sus logros sean los de todos no tiene precio.</p>
+            </div>
+            <div class="testi-card">
+                <p class="testi-text">Hay niños que no reciben nada en Navidad, y muchos ya estaban acostumbrados a eso. Hoy, gracias a ustedes, pudimos cambiarles aunque sea un momento. Muchas gracias de corazón a toda la barra.</p>
+            </div>
+            <!-- duplicado para loop infinito -->
+            <div class="testi-card">
+                <p class="testi-text">Gracias eternas. Me hicieron sentir parte de esta gran barra.</p>
+            </div>
+            <div class="testi-card">
+                <p class="testi-text">Muchas gracias por la invitación y la amabilidad. Espero poder verlos pronto y el año que viene estar nuevamente con ustedes, representando esta hermosa barra. Un abrazo grande y cálido — Familia Cian.</p>
+            </div>
+            <div class="testi-card">
+                <p class="testi-text">Más de una vez nos preguntamos si queríamos ser una gran barra pesquera o una barra de amigos. Elegimos ser una barra modesta de amigos que valga la pena.</p>
+            </div>
+            <div class="testi-card">
+                <p class="testi-text">Demostraron ser muy buena gente, y eso nos alegra enormemente. Poder compartir con ustedes y que sus logros sean los de todos no tiene precio.</p>
+            </div>
+            <div class="testi-card">
+                <p class="testi-text">Hay niños que no reciben nada en Navidad, y muchos ya estaban acostumbrados a eso. Hoy, gracias a ustedes, pudimos cambiarles aunque sea un momento. Muchas gracias de corazón a toda la barra.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CONTACTO ===== -->
+<section id="contacto" class="section section-contact">
+    <div class="container contact-inner">
+        <h2 class="section-title centered reveal">Sumate a la barra</h2>
+        <p class="contact-phrase reveal">¿Querés sumarte a la barra, colaborar con nuestras obras o simplemente saludarnos? Escribinos.</p>
+        <div class="contact-btns reveal">
+            <a href="https://wa.me/5493794906217?text=Hola%20Barra%20Pesquera%20BNA!"
+               class="btn btn-whatsapp btn--lg" target="_blank" rel="noopener noreferrer">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                Escribinos por WhatsApp
+            </a>
+            <a href="https://www.instagram.com/barrapesquerabna"
+               class="btn btn-instagram btn--lg" target="_blank" rel="noopener noreferrer">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+                Seguinos en Instagram
+            </a>
+        </div>
+        <p class="contact-location reveal">
+            <a href="https://maps.app.goo.gl/hYaiuUYowVRgufXo9" target="_blank" rel="noopener noreferrer" class="contact-location-link">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+                </svg>
+                Goya, Corrientes, Argentina
+            </a>
+        </p>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>© 2026 Barra Pesquera BNA · Goya, Corrientes ·
+        <a href="https://www.instagram.com/barrapesquerabna" target="_blank" rel="noopener noreferrer">@barrapesquerabna</a>
+    </p>
+    <div class="footer-credit">
+        <span>Sitio diseñado y desarrollado por Rodrigo Lazaroff</span>
+        <div class="footer-credit-links">
+            <a href="https://www.linkedin.com/in/rodrigolazaroff/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                LinkedIn
+            </a>
+            <a href="https://www.instagram.com/rodrigolazaroff/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+                Instagram
+            </a>
+            <a href="https://wa.me/543777659236?text=Hola,%20vi%20la%20página%20y%20quiero%20una." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                WhatsApp
+            </a>
+        </div>
+    </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" aria-hidden="true">
+    <img id="lightbox-img" src="" alt="">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
